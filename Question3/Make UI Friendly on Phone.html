@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- saved from url=(0121)file:///C:/Users/cui/AppData/Local/Temp/%7B23C16337-74A9-4B6F-894B-4E07251371F7%7D/Make%20UI%20Friendly%20on%20Phone.html -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+	<script src="https://cdn.bootcss.com/popper.js/1.16.1/umd/popper.min.js"></script>
+	<link href="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        table {
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+        }
+
+        table#t01 tr:nth-child(even) {
+            background-color: #eee;
+        }
+
+        table#t01 tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        table#t01 th {
+            background-color: black;
+            color: white;
+        }
+
+        .button {
+            /*width: 15%;*/
+            /*height: 100%;*/
+            background-color: #4CAF50;
+            border: none;
+            color: #FFFFFF;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            text-align: center;
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            float: right;
+        }
+
+        .button1 {
+            background-color: #4CAF50;
+        }
+
+        /* Green */
+        .button2 {
+            background-color: #008CBA;
+        }
+
+        /* Blue */
+        .button3 {
+            background-color: #f44336;
+        }
+
+        /* Red */
+        .button4 {
+            background-color: #f4511e;
+        }
+
+        /* Green 2 */
+        .button5 {
+            background-color: #555555;
+        }
+
+        /* Black */
+        /*@media screen and (max-width: 1000px) {*/
+		/*	tr{*/
+		/*		height: 10%;*/
+		/*		overflow: auto;*/
+		/*	}*/
+
+        /*}*/
+
+
+    </style>
+</head>
+
+<body>
+<h2>Projects
+    <button class="button button1">Create New Project</button>
+    <button class="button button2">Update Project Metadata</button>
+    <button class="button button3">Delete Project</button>
+    <button class="button f4511e">Restart Service</button>
+    <button class="button button5">Stop Service</button>
+</h2>
+<div class="table-responsive">
+    <table id="t01" class="table">
+        <tbody>
+        <tr>
+            <th>Project ID</th>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Manager</th>
+            <th>Launch Date</th>
+            <th>Last Build</th>
+            <th>Code Coverage</th>
+            <th>Last Deployment</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Support Portal</td>
+            <td>This is the home page of company support.</td>
+            <td>Letilvy, Wei</td>
+            <td>Jan.01 2014</td>
+            <td>Successful</td>
+            <td>97%</td>
+            <td>March.07 2020</td>
+            <td>
+                <a href="file:///C:/Users/cui/AppData/Local/Temp/%7B23C16337-74A9-4B6F-894B-4E07251371F7%7D/Make%20UI%20Friendly%20on%20Phone.html">GO</a>
+            </td>
+        </tr>
+        <tr>
+            <td>0002</td>
+            <td>ONE Support Launchpad</td>
+            <td>This is a long long long long long long long <p> long long long long long long long long long long long
+                long
+                long long long long long long long long long long long long long long long long long long long long long
+                long long long long long long long long long long long long long long long long long long long long long
+                long description.</p></td>
+            <td>Jackson, Eve</td>
+            <td>Nov.19 2017</td>
+            <td>Failed</td>
+            <td>86%</td>
+            <td>March.01 2020</td>
+            <td>
+                <a href="file:///C:/Users/cui/AppData/Local/Temp/%7B23C16337-74A9-4B6F-894B-4E07251371F7%7D/Make%20UI%20Friendly%20on%20Phone.html">GO</a>
+            </td>
+        </tr>
+        <tr>
+            <td>0003</td>
+            <td>Deployment Monitor Platform</td>
+            <td>This is a medium medium medium medium medium medium medium medium medium<p> description.</p></td>
+            <td>Julia, Zhu</td>
+            <td>Aug.08 2018</td>
+            <td>Successful</td>
+            <td>63%</td>
+            <td>March.03 2020</td>
+            <td>
+                <a href="file:///C:/Users/cui/AppData/Local/Temp/%7B23C16337-74A9-4B6F-894B-4E07251371F7%7D/Make%20UI%20Friendly%20on%20Phone.html">GO</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+</body>
+</html>

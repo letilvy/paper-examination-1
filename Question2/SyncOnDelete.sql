@@ -1,0 +1,5 @@
+DROP TRIGGER IF EXISTS sync_on_delete;
+CREATE TRIGGER sync_on_delete AFTER DELETE ON ta
+    FOR EACH ROW
+        DELETE FROM tb t
+        WHERE t.POINTER = OLD.POINTER
